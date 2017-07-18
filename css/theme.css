@@ -1,0 +1,84 @@
+body{
+  background-color: #222
+   !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar{
+  height: auto;
+  min-height: auto;
+}
+#navbar_main{
+  color: red;
+  padding: 5px;
+  margin-bottom: 0px;
+  transition-duration: 1s;
+  height: 60px !important;
+}
+.break{
+  height: 20px !important;
+}
+.break2{
+  height: 40px !important;
+}
+.break4{
+  height: 80px !important;
+}
+.noborder{
+  border-style: none;
+  border-radius: 0px;
+}
+.nomargin{
+  margin: 0px !important;
+}
+.nopadding{
+  padding: 0px !important;
+}
+.nav-link{
+  padding: 5px 10px 5px 10px !important;
+  color: red !important;
+  height: auto !important;
+  border-radius: 5px;
+  padding-top: 10px;
+  margin-left: 20px;
+  width: auto !important;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  border-style: solid;
+  border-width: thin;
+  border-color: transparent;
+}
+.nav-link:hover{
+  color: white !important;
+  text-decoration: none;
+  background-color: red !important;
+}
+.nav-link-active{
+  border-width: 1px;
+  background-color: black
+  border-style: solid;
+  border-color: black
+}
+.navbar_cont{
+  margin-top: 10px !important;
+}
+.fa-truck{
+  font-size: 32px;
+}
+.fa-truck:hover{
+  color: white;
+}
+.fa-opencart{
+  font-size: 32px;
+}
+.fa-opencart:hover{
+  color: white;
+}
+.footer{
+  height:60px;
+  background-color: black;
+  color:red;
+  bottom: 100%;
+  position: absolute;
+}

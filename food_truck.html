@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- <script type="text/javascript" src="js/bootstrap.min.js"></script> -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700|Open+Sans:400,600,700" rel="stylesheet">
+</head>
+<body>
+  <header>
+  <nav class="navbar noborder" id="navbar_main" style="background-color: black !important;">
+  <div class="container noborder navbar_cont">
+    <div class="  navbar-header nomargin nopadding">
+      <button type="button nomargin nopadding" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand link nomargin nopadding" style="padding : 0 5px 0px 0px !important;" href="#"><span class="fa fa-truck"></span></a>
+    </div>
+    <div class="collapse navbar-collapse nomargin nopadding" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="{% url 'home' %}" class="link-active link">FOOD</a></li>
+        <li><a href="{% url 'list' %}" class="link link-inactive">ORDER</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+
+
+        <li class="dropdown">
+          <a class="link link-inactive dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span></a>
+          <ul class="dropdown-menu" role="menu">
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<div class="container main-body">
+  <div class="row">
+  <div class="text-center col-lg-6">
+  <iframe width="100%" height="500px" frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJYTN9T-plUjoRM9RjaAunYW4&key=AIzaSyBeTs45T5mPFX61H2TptX-_wMcnLxDxRa4&zoom=17" allowfullscreen></iframe>
+</div>
+<div class="col-lg-6 box1">
+  <div class="row">
+  <div class="text-center head">
+    <p>
+      Our Food
+    </p>
+  </div>
+  </div>
+  <div class="row food-list">
+    <div class="col-lg-4 img_cont">
+      <img class="fd-img" src="1.jpg" alt="1.jpg" />
+    </div>
+    <div class="col-lg-4 img_cont">
+      <img class="fd-img" src="1.jpg" alt="1.jpg" />
+    </div>
+    <div class="col-lg-4 img_cont">
+      <img class="fd-img" src="1.jpg" alt="1.jpg" />
+    </div>
+  </div>
+</div>
+<div class="col-lg-6 box1">
+  <div class="row">
+  <div class="text-center head">
+    <p>
+      Our Food
+    </p>
+  </div>
+  </div>
+  <div class="row food-list">
+    <div class="col-lg-4 img_cont">
+      <img class="fd-img" src="1.jpg" alt="1.jpg" />
+    </div>
+    <div class="col-lg-4 img_cont">
+      <img class="fd-img" src="1.jpg" alt="1.jpg" />
+    </div>
+    <div class="col-lg-4 img_cont">
+      <img class="fd-img" src="1.jpg" alt="1.jpg" />
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="container">
+
+</div>
+<div class="break"></div>
+<div class="footer">
+
+</div>
+</body>
+</html>
